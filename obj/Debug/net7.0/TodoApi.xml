@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:TodoApi.Controllers.TodoItemsController.GetTodoItem(System.Int64)">
+            <summary> Get Todo By Id </summary>
+            <returns>Todo By Id</returns>
+            <remarks>
+            Sample request:
+                Get Todo By Id
+                {
+                   "id": 1,
+                }
+            </remarks>
+            <response code="200">Returns the Todo</response>
+            <response code="404">If the Todo Does Not Exist</response>
+        </member>
+    </members>
+</doc>
