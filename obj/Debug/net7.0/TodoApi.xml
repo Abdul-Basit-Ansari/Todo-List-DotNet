@@ -17,5 +17,29 @@
             <response code="200">Returns the Todo</response>
             <response code="404">If the Todo Does Not Exist</response>
         </member>
+        <member name="T:TodoApi.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TodoApi.Migrations.AddJWT">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.AddJWT.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.AddJWT.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TodoApi.Migrations.AddJWT.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
