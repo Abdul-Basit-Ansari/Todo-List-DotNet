@@ -9,5 +9,15 @@ public class TodoContext : DbContext
     {
     }
 
-    public DbSet<TodoItem> TodoItems { get; set; } = null!;
+    public DbSet<TodoItem> TodoItems { get; set; } = default!;
+    public DbSet<User> User { get; set; } = default!;
+
+    // protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     // configures one-to-many relationship
+    //     modelBuilder.Entity<User>()
+    //     .HasMany(c => c.Todo)
+    //     .WithOne(e => e.User)
+    //     .IsRequired();         
+    // }
 }
